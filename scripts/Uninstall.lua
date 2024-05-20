@@ -1,0 +1,22 @@
+term.clear()
+term.setCursorPos(1,1)
+term.setCursorBlink(true)
+textutils.slowPrint("ARE YOU SURE YOU WANT TO UNINSTALL TTABIZTOS?")
+textutils.slowPrint("Y - Yes | N - No")
+ans = read()
+if ans == "Y" or ans == "y" then
+    fs.delete("startup")
+    fs.delete("Back")
+    fs.delete("os/")
+    fs.delete("FileSend.lua")
+    fs.delete("FileReceive.lua")
+    fs.delete("options")
+    print("Done!")
+    print("System will reboot in a while...")
+    sleep(5)
+    os.reboot()
+else
+    print("Rebooting...")
+    sleep(1)
+    os.reboot()
+end

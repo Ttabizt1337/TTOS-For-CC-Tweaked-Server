@@ -1,0 +1,8 @@
+term.setBackgroundColor(colors.black)
+term.clear()
+term.setCursorPos(1,1)
+term.write("Welcome to Command Prompt!")
+term.setCursorPos(1,2)
+term.write("To go back write: Back")
+term.setCursorPos(1,3)
+term.write("____________________________________________________")
