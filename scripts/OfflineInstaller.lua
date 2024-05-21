@@ -1,4 +1,4 @@
-shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/Back.lua", "disk/Back")
+shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/Back.lua", "disk/.Back")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/command.lua", "disk/.command")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/configure.lua", "disk/.configure")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/Logo.nfp", "disk/Logo.nfp")
