@@ -8,7 +8,13 @@ local function ChA(ans)
     if (ans == "1") then
         shell.run("disk/.startup")
     elseif (ans == "2") then
-        print("WowoOOWO Installing Through Internet!!!")
+        term.clear()
+        disk.eject("left")
+        disk.eject("right")
+        disk.eject("top")
+        disk.eject("bottom")
+        disk.eject("back")
+        shell.run("wget", "run", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/OnlineInstaller.lua")
     else
         print("Wrong Answer, Please Try Again!")
         sleep(3)
