@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
         { name: "updateOS", url: "scripts/updateOS.lua" },
         { name: "UpdatePopup", url: "scripts/UpdatePopup.lua" }
     ];
-
     const scriptList = document.getElementById("script-list");
     scripts.forEach(script => {
         const li = document.createElement("li");
@@ -26,3 +25,4 @@ document.addEventListener("DOMContentLoaded", function() {
         scriptList.appendChild(li);
     });
 });
+
