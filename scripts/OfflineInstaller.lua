@@ -7,7 +7,7 @@ shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scri
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/programs.lua", "disk/.programs")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/starter.lua", "disk/.starter")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/startup.lua", "disk/startup")
-shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/startup", "disk/startup")
+shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/startupFile.lua", "disk/.startup")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/system.lua", "disk/.system")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/Uninstall.lua", "disk/.Uninstall")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/updateOS.lua", "disk/updateOS")
