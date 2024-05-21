@@ -1,6 +1,6 @@
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/Back.lua", "Back")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/command.lua", "os/.command")
-shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/configure.lua", "os/.configure")
+shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/configure.lua", "os/configure")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/Logo.nfp", "os/Logo.nfp")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/LogoCC.nfp", "os/LogoCC.nfp")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/MPrograms.lua", "os/.MPrograms")
