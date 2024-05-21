@@ -75,7 +75,7 @@ while true do
             drawFrontend()
         end
     elseif KK == "down" or KK == "s" then
-        if nOption < 5 then
+        if nOption < 6 then
             nOption = nOption + 1
             MenuDraw()
             drawFrontend()
