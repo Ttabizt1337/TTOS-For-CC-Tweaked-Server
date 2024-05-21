@@ -6,6 +6,16 @@ body {
     color: #333;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-height: 100px; 
+    margin-right: 20px;
+}
+
 h1 {
     color: #333;
 }
