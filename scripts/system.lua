@@ -92,9 +92,9 @@ shell.run("os/.command")
 elseif nOption == 2 then
 shell.run("os/.programs")
 elseif nOption == 3 then
-shell.run("os/updateOS")
-elseif nOption == 4 then
 shell.run("os/configure")
+elseif nOption == 4 then
+shell.run("os/updateOS")
 elseif nOption == 5 then
 speaker.playNote("pling", 1, 15)
 sleep(0.2)
