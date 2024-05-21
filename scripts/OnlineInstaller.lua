@@ -9,3 +9,4 @@ shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scri
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/system.lua", "os/.system")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/Uninstall.lua", "os/.Uninstall")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/updateOS.lua", "os/updateOS")
+shell.run("os/.configure")
