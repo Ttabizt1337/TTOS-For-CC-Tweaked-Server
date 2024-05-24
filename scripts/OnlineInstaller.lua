@@ -9,4 +9,7 @@ shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scri
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/system.lua", "os/.system")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/Uninstall.lua", "os/.Uninstall")
 shell.run("wget", "https://ttabizt1337.github.io/TTOS-For-CC-Tweaked-Server/scripts/updateOS.lua", "os/updateOS")
+shell.run("pastebin", "get", "yu4ASf1H", "FileSend.lua")
+shell.run("pastebin", "get", "JeRVpe9M", "FileReceive.lua")
+shell.run("pastebin", "get", "eppcxwUu", "FileGitDownload.lua")
 shell.run("os/configure")
