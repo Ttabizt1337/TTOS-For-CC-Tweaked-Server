@@ -84,7 +84,7 @@ shell.run("FileSend")
 elseif nOption == 2 then
 shell.run("FileReceive")
 elseif nOption == 3 then
-shell.run("os/FileGitDownload")
+shell.run("FileGitDownload")
 elseif nOption == 4 then
 shell.run("os/.MPrograms")
 else
