@@ -10,6 +10,7 @@ if ans == "Y" or ans == "y" then
     fs.delete("os/")
     fs.delete("FileSend.lua")
     fs.delete("FileReceive.lua")
+    fs.delete("FileGitDownload.lua")
     fs.delete("options")
     print("Done!")
     print("System will reboot in a while...")
